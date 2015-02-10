@@ -15,7 +15,8 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 public class Mcdon {
-    private static final String fileName = "C:\\Users\\t4ojpa00\\Desktop\\mcdonaldsprices.txt";
+//    private static final String fileName = "C:\\Users\\t4ojpa00\\Desktop\\mcdonaldsprices.txt";
+    private static final String fileName = "C:\\Users\\Pasi\\Desktop\\mcdonaldsprices.txt";
     private final Scanner fs;
     private String kenttäerotin = "\t";
     private String seuraavaRivi;
