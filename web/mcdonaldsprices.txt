@@ -1,0 +1,170 @@
+Extra Value Meals, Meals Include Medium French Fries and Soft Drink
+Big Mac		$3.99
+Big Mac - Meal		$5.69
+2 Cheeseburgers		$2.58
+2 Cheeseburgers - Meal		$4.89
+Quarter Pounder with Cheese		$3.79
+Quarter Pounder with Cheese - Meal		$5.49
+Double Quarter Pounder with Cheese		$4.79
+Double Quarter Pounder with Cheese - Meal		$6.49
+Bacon Habanero Ranch Quarter Pounder		$4.09
+Bacon Habanero Ranch Quarter Pounder - Meal		$5.79
+Deluxe Quarter Punder		$4.09
+Deluxe Quarter Punder - Meal		$5.79
+Bacon & Cheese Quarter Pounder		$4.09
+Bacon & Cheese Quarter Pounder - Meal		$5.79
+Filet-O-Fish		$3.79
+Filet-O-Fish - Meal		$5.49
+Double Filet-O-Fish		$4.69
+Double Filet-O-Fish - Meal		$6.39
+Double Cheeseburger		$1.59
+Double Cheeseburger - Meal		$4.19
+Chicken Ranch BLT (Grilled or Crispy)		$4.29
+Chicken Ranch BLT (Grilled or Crispy) - Meal		$5.99
+Club Chicken (Grilled or Crispy)		$4.49
+Club Chicken (Grilled or Crispy) - Meal		$6.19
+Classic Chicken (Grilled or Crispy)		$4.19
+Classic Chicken (Grilled or Crispy) - Meal		$5.89
+Southern Style Chicken		$3.89
+Southern Style Chicken - Meal		$5.59
+Bacon Clubhouse Burger		$4.49
+Bacon Clubhouse Burger - Meal		$6.19
+Premium Chicken Bacon Clubhouse (Grilled or Crispy)		$4.49
+Premium Chicken Bacon Clubhouse (Grilled or Crispy) - Meal		$6.19
+Large Meals, Meals Include Large French Fries and Soft Drink
+Chicken McNuggets	10 Pc.	$4.49
+Chicken McNuggets Meal	10 Pc.	$6.19
+Chicken McNuggets	20 Pc.	$5.00
+Chicken McNuggets	40 Pc.	$8.99
+Salads, Grilled or Crispy Chicken
+Southwest		$4.79
+Bacon Ranch		$4.59
+Extra Value Menu
+Chicken Snack Wrap (Grilled) (Chipolte BBQ)		$1.69
+Chicken Snack Wrap (Grilled) (Honey Mustard)		$1.69
+Chicken Snack Wrap (Grilled) (Ranch)		$1.69
+Chicken Snack Wrap (Crispy) (Chipolte BBQ)		$1.69
+Chicken Snack Wrap (Crispy) (Honey Mustard)		$1.69
+Chicken Snack Wrap (Crispy) (Ranch)		$1.69
+Iced Coffee	Medium	$1.79
+McFlurry	Snack Size	$1.79
+Cookie Tote	13 Chocolate Chip	$3.99
+Steak and Egg Burrito		$1.79
+French Fries	Small	$1.19
+French Fries	Medium	$1.59
+French Fries	Large	$1.79
+Dollar Menu & More
+Grilled Onion Cheddar		$1.00
+McDouble		$1.19
+McChicken		$1.00
+Bacon Cheddar McChicken		$2.00
+Buffalo Ranch McChicken		$1.00
+Bacon Buffalo Ranch McChicken		$2.00
+BBQ Ranch Burger		$1.00
+Double Cheeseburger		$1.59
+Bacon McDouble		$2.00
+20 Pc. Chicken McNuggets		$5.00
+20 Pc. Chicken McNuggets with 2 Medium French Fries and 2 Medium Soft Drinks		$11.09
+Daily Double		$1.99
+Parfait		$1.00
+Sweet Tea		$1.00
+Side Salad		$1.00
+3 Cookies		$1.00
+Cone		$1.00
+Apple Slices	2 Bags	$1.00
+Dasani Water	Bottle	$1.00
+Dollar Breakfast Menu
+Sausage Burrito		$1.00
+Sausage McMuffin		$1.00
+Sausage Biscuit		$1.00
+1 Hash Browns		$1.00
+Coffee	Medium	$1.00
+2 McGriddles Cakes		$1.00
+McCafe Drinks
+Smoothies (Mango Pineapple, Strawberry Banana, or Blueberry Pomegranate)	Small	$2.39
+Smoothies (Mango Pineapple, Strawberry Banana, or Blueberry Pomegranate)	Medium	$2.89
+Smoothies (Mango Pineapple, Strawberry Banana, or Blueberry Pomegranate)	Large	$3.39
+Frappe (Mocha, Caramel, Chocolate Chip, or Chocolate Covered Strawberry)	Small	$2.39
+Frappe (Mocha, Caramel, Chocolate Chip, or Chocolate Covered Strawberry)	Medium	$2.89
+Frappe (Mocha, Caramel, Chocolate Chip, or Chocolate Covered Strawberry)	Large	$3.39
+Espresso & Chocolate (Mocha, Caramel Mocha, Iced Mocha, Iced Caramel Mocha, Latte, Hot Chocolate, or White Chocolate Mocha)	Small	$2.39
+Espresso & Chocolate (Mocha, Caramel Mocha, Iced Mocha, Iced Caramel Mocha, Latte, Hot Chocolate, or White Chocolate Mocha)	Medium	$2.89
+Espresso & Chocolate (Mocha, Caramel Mocha, Iced Mocha, Iced Caramel Mocha, Latte, Hot Chocolate, or White Chocolate Mocha)	Large	$3.39
+Premium Roast Coffee	Small	$0.90
+Premium Roast Coffee	Medium	$1.19
+Premium Roast Coffee	Large	$1.29
+Iced Coffee	Small	$1.59
+Iced Coffee	Medium	$1.79
+Iced Coffee	Large	$1.99
+Iced Tea	Small	$1.00
+Iced Tea	Medium	$1.29
+Iced Tea	Large	$1.49
+Soft Drink	Small	$1.00
+Soft Drink	Medium	$1.29
+Soft Drink	Large	$1.49
+Orange Juice	Small	$1.39
+Orange Juice	Medium	$1.79
+Orange Juice	Large	$2.09
+Milk		$1.00
+Sweet Treats
+Shakes (Chocolate, Vanilla, or Strawberry)	Small	$2.19
+Shakes (Chocolate, Vanilla, or Strawberry)	Medium	$2.59
+Shakes (Chocolate, Vanilla, or Strawberry)	Large	$2.99
+Sundae (Hot Fudge or Caramel)		$1.19
+Pies (Apple or Cherry)		$0.89
+Cone (Vanilla)		$1.00
+Dipped Cone		$1.39
+McFlurry	Snack	$1.79
+McFlurry	Regular	$2.39
+Soft Baked Chocolate Chip Cookie	1 Pc.	$0.39
+Soft Baked Chocolate Chip Cookie	3 Pc.	$1.00
+Strawberry & Creme Pie		$0.89
+Happy Meal, Includes Apple Slices & Kids French Fries
+4 Pc. Chicken McNuggets		$2.99
+Hamburger		$2.49
+Cheeseburger		$2.79
+Mighty Kids Meal, Includes Apple Slices & Small French Fries
+6 Pc. Chicken McNuggets		$3.99
+McDouble		$4.09
+Limited Time Specials
+Premium McWrap (Chicken & Bacon) (Grilled or Crispy)		$3.99
+Premium McWrap (Chicken & Bacon) (Grilled or Crispy) - Meal		$5.69
+Premium McWrap (Sweet Chili Chicken) (Grilled or Crispy)		$4.19
+Premium McWrap (Sweet Chili Chicken) (Grilled or Crispy) - Meal		$5.89
+Premium McWrap (Chicken & Ranch) (Grilled or Crispy)		$3.99
+Premium McWrap (Chicken & Ranch) (Grilled or Crispy) - Meal		$5.69
+2 Steak & Egg Burrito		$3.00
+2 Steak & Egg Burrito - Meal		$4.79
+Breakfast Meals, Meals Include Hash Browns and Small Coffee
+Egg White Delight McMuffin		$2.79
+Egg White Delight McMuffin - Meal		$3.99
+Egg McMuffin		$2.79
+Egg McMuffin - Meal		$3.99
+Sausage McMuffin with Egg		$2.99
+Sausage McMuffin with Egg - Meal		$4.19
+Bacon, Egg & Cheese Biscuit		$3.19
+Bacon, Egg & Cheese Biscuit - Meal		$4.39
+Sausage Biscuit with Egg		$2.79
+Sausage Biscuit with Egg - Meal		$3.99
+Bacon, Egg & Cheese McGriddles		$3.29
+Bacon, Egg & Cheese McGriddles - Meal		$4.49
+Sausage, Egg & Cheese McGriddles		$3.29
+Sausage, Egg & Cheese McGriddles - Meal		$4.49
+Sausage McGriddles		$2.79
+Sausage McGriddles - Meal		$3.99
+Sausage Burrito		$1.00
+2 Sausage Burritos - Meal		$3.79
+Bacon, Egg & Cheese Bagel		$3.29
+Bacon, Egg & Cheese Bagel - Meal		$4.49
+Steak, Egg & Cheese Bagel		$3.39
+Steak, Egg & Cheese Bagel - Meal		$4.59
+Sausage Gravy & Biscuit		$2.69
+Sausage Gravy & Biscuit - Meal		$4.59
+Morning Platters
+Big Breakfast with Hot Cakes		$5.29
+Big Breakfast		$3.49
+Sausage Gravy & Biscuit		$2.69
+Hot Cakes with Sausage		$2.99
+3 Hot Cakes		$2.29
+Fruit & Oatmeal
+Fruit & Maple Oatmeal		$1.99
