@@ -28,13 +28,15 @@ import javax.sql.DataSource;
 public class McdonReader {
     
     
-//    @Resource(lookup="jdbc/mcdon")
 //    @Resource(lookup="jdbc/07-nokia")
+//    @Resource(lookup="jdbc/mcdon")
 //    private DataSource db;
+    
+    Connection c;
     
     PreparedStatement psR;
     
-    private ArrayList<Ryhmä> ryhmät;
+    private ArrayList<Ryhmä> ryhmät=new ArrayList<>();
     static int ryhmälaskuri=0;
 
     public ArrayList<Ryhmä> getRyhmät() {
@@ -42,24 +44,22 @@ public class McdonReader {
     }
 
     public McdonReader() throws SQLException {
-        Connection c=DriverManager.getConnection(
+         c=DriverManager.getConnection(
                 "jdbc:derby://localhost:1527/mcdon",
                 "mcdon", "mcdon");
+//        c=db.getConnection();
          psR=c.prepareStatement("select * from ryhmat");
          ResultSet rs=psR.executeQuery();
         while(rs.next()){
             try{
-            ryhmät.add(new Ryhmä(rs.getString("RYHMA")));
+                Ryhmä r=new Ryhmä(rs.getString("RYHMA"));
+            ryhmät.add(r);
             }
             catch(Exception e){
                 System.out.println(e.toString());
             }
         }
-        
-        
-
-         
-        rs.close();
+                rs.close();
         psR.close();
         c.close();
     
@@ -68,14 +68,7 @@ public class McdonReader {
             
             
 
-    private static class Tuote {
 
-        public Tuote() {
-            String nimi;
-            String määrä;
-            Double hinta;
-        }
-    }
 
     private static class Ryhmä {
 
@@ -88,6 +81,14 @@ public class McdonReader {
             this.numero=++ryhmälaskuri;
             this.nimi=nimi;
             System.out.println(this.nimi);
+        }
+    }
+            private static class Tuote {
+
+        public Tuote() {
+            String nimi;
+            String määrä;
+            Double hinta;
         }
     }
     public static void main(String[] args) throws SQLException {
