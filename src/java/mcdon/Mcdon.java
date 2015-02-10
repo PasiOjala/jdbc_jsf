@@ -1,6 +1,6 @@
 package mcdon;
 
-import com.sun.xml.internal.fastinfoset.util.StringArray;
+//import com.sun.xml.internal.fastinfoset.util.StringArray;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.math.BigDecimal;
