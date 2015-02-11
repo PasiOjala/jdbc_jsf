@@ -53,7 +53,7 @@ public class Mcdon {
         }
     }
     
-    private void lueOtsikot() throws SQLException{
+    private void luoOtsikotJaLauseet() throws SQLException{
         if (seuraavaRivi==null) return;
 //        otsikot=seuraavaRivi.split(kenttäerotin);
 //        seuraavaRivi.split(kenttäerotin);
@@ -78,24 +78,7 @@ public class Mcdon {
         otsikotRyhmät=("ryhma").split(" ");
         
         
-        //poista vanha
-        ResultSet taulut=
-                db.getMetaData().getTables(null, null, "TUOTTEET", null);
-        if (taulut.next()){
-            System.out.println(taulut.getString("TABLE_NAME"));
-            db.createStatement().execute("drop table tuotteet");
-        }else{
-            System.out.println("ei taulua nimeltä \"tuotteet\"");
-        }
-        taulut=
-                db.getMetaData().getTables(null, null, "RYHMAT", null);
-        if (taulut.next()){
-            System.out.println(taulut.getString("TABLE_NAME"));
-            db.createStatement().execute("drop table ryhmat");
-        }else{
-            System.out.println("ei taulua nimeltä \"ryhmat\"");
-        }
-        //luo uusi taulu ja vientilause
+        poistaVanhatTaulut();
         
         StringBuilder luontilauseTuotteet=new StringBuilder();
         StringBuilder vientilauseTuotteet=new StringBuilder();
@@ -164,7 +147,28 @@ public class Mcdon {
         db.createStatement().execute(luontilauseRyhmät.toString());
         
     }
-    private void tallennaKurssit() throws SQLException {
+
+    private void poistaVanhatTaulut() throws SQLException {
+        //poista vanha
+        ResultSet taulut=
+                db.getMetaData().getTables(null, null, "TUOTTEET", null);
+        if (taulut.next()){
+            System.out.println(taulut.getString("TABLE_NAME"));
+            db.createStatement().execute("drop table tuotteet");
+        }else{
+            System.out.println("ei taulua nimeltä \"tuotteet\"");
+        }
+        taulut=
+                db.getMetaData().getTables(null, null, "RYHMAT", null);
+        if (taulut.next()){
+            System.out.println(taulut.getString("TABLE_NAME"));
+            db.createStatement().execute("drop table ryhmat");
+        }else{
+            System.out.println("ei taulua nimeltä \"ryhmat\"");
+        }
+        //luo uusi taulu ja vientilause
+    }
+    private void lueJaTalletaHinnasto() throws SQLException {
         
         PreparedStatement psTuotteet = db.prepareStatement(vientilauseTuotteet);
         PreparedStatement psRyhmät = db.prepareStatement(vientilauseRyhmät);
@@ -235,8 +239,8 @@ public class Mcdon {
     public static void main(String[] args) throws Exception {
         Mcdon mcdon = new Mcdon();
         mcdon.lueSep();
-        mcdon.lueOtsikot();
-        mcdon.tallennaKurssit();
+        mcdon.luoOtsikotJaLauseet();
+        mcdon.lueJaTalletaHinnasto();
     }
     
 }

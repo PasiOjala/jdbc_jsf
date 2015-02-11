@@ -1,6 +1,5 @@
 package mcdon;
 
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -18,7 +17,6 @@ import javax.sql.DataSource;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author t4ojpa00
@@ -26,72 +24,62 @@ import javax.sql.DataSource;
 @Named
 @RequestScoped
 public class McdonReader {
-    
-    
-//    @Resource(lookup="jdbc/07-nokia")
+
 //    @Resource(lookup="jdbc/mcdon")
 //    private DataSource db;
-    
-    Connection c;
-    
     PreparedStatement psR;
+    PreparedStatement psT;
+    Connection c;
+
+    private ArrayList<Ryhmä> ryhmät;
     
-    private ArrayList<Ryhmä> ryhmät=new ArrayList<>();
-    static int ryhmälaskuri=0;
+    private int ryhmälaskuri = 0;
 
     public ArrayList<Ryhmä> getRyhmät() {
         return ryhmät;
     }
 
     public McdonReader() throws SQLException {
-         c=DriverManager.getConnection(
+        if (ryhmät==null){
+            ryhmät=new ArrayList<>();}
+        c = DriverManager.getConnection(
                 "jdbc:derby://localhost:1527/mcdon",
-                "mcdon", "mcdon");
+                "mcdon", "mcdon"); 
+        
+
+//        Connection c=db.getConnection();
 //        c=db.getConnection();
-         psR=c.prepareStatement("select * from ryhmat");
-         ResultSet rs=psR.executeQuery();
-        while(rs.next()){
-            try{
-                Ryhmä r=new Ryhmä(rs.getString("RYHMA"));
-            ryhmät.add(r);
-            }
-            catch(Exception e){
+        psR = c.prepareStatement("select * from ryhmat");
+        psT = c.prepareStatement("select * from tuotteet where RYHMA = ?");
+        ResultSet rs = psR.executeQuery();
+        while (rs.next()) {
+            try {
+                Ryhmä r = new Ryhmä(rs.getString("RYHMA"),++ryhmälaskuri);
+                ryhmät.add(r);
+                int a=1;
+                psT.setInt(1, ryhmälaskuri);
+                System.out.println(psT.toString());
+                ResultSet rsT = psT.executeQuery();
+                while(rsT.next()){
+                    Tuote t=new Tuote(rsT.getString(1),
+                                        rsT.getString(2),
+                                        rsT.getDouble(3)
+                    );
+                    r.lisääTuote(t);
+                }
+            } catch (Exception e) {
                 System.out.println(e.toString());
             }
         }
-                rs.close();
+        rs.close();
         psR.close();
         c.close();
-    
+
     }
-    
-            
-            
 
 
 
-    private static class Ryhmä {
-
-        String nimi;
-        int numero;
-        ArrayList<Tuote> tuotteet;
-
-        private Ryhmä(String nimi) {
-            
-            this.numero=++ryhmälaskuri;
-            this.nimi=nimi;
-            System.out.println(this.nimi);
-        }
-    }
-            private static class Tuote {
-
-        public Tuote() {
-            String nimi;
-            String määrä;
-            Double hinta;
-        }
-    }
     public static void main(String[] args) throws SQLException {
-        McdonReader mc=new McdonReader();
+        McdonReader mc = new McdonReader();
     }
 }
